@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Market Lab is a personal e-commerce research and Etsy listing workflow currently under development." />
+  <title>Market Lab — E-commerce Research & Listing Workflow</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Market Lab home">Market Lab</a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#etsy">Etsy use</a>
+        <a href="#privacy">Privacy</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="top">
+      <p class="eyebrow">Personal e-commerce research tool</p>
+      <h1>From product ideas to evidence-backed listing preparation.</h1>
+      <p class="lede">
+        Market Lab is a personal workflow for researching e-commerce product opportunities and preparing marketplace listings. The project is currently under development and intended for personal use.
+      </p>
+      <div class="status" role="status">
+        <span class="status-dot" aria-hidden="true"></span>
+        Currently in development
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="section-label">About</p>
+      <h2>Research first, publishing second.</h2>
+      <p>
+        Market Lab is designed to compare product opportunities using measurable marketplace and trend signals. Its goal is to organize research evidence, highlight missing data, and support better product decisions before listing preparation begins.
+      </p>
+      <div class="grid">
+        <article class="card">
+          <h3>Product research</h3>
+          <p>Organizes marketplace and trend signals to compare potential product opportunities.</p>
+        </article>
+        <article class="card">
+          <h3>Evidence-focused</h3>
+          <p>Keeps source availability and supporting evidence visible instead of presenting estimates as facts.</p>
+        </article>
+        <article class="card">
+          <h3>Listing workflow</h3>
+          <p>May assist with preparing and managing Etsy listings for the account owner after explicit user approval.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split" id="etsy">
+      <div>
+        <p class="section-label">Etsy API use</p>
+        <h2>Built for an official API workflow.</h2>
+      </div>
+      <div class="copy">
+        <p>
+          The Etsy integration is being developed to use Etsy's official API. The application will not ask other users to provide their own Etsy API keys.
+        </p>
+        <p>
+          Planned Etsy functionality includes reading permitted marketplace data for research and assisting the account owner with listing preparation or management where authorized. Publishing or editing actions will require explicit user approval.
+        </p>
+        <p>
+          The application is not currently offered as a paid public service.
+        </p>
+      </div>
+    </section>
+
+    <section class="section split" id="privacy">
+      <div>
+        <p class="section-label">Data & privacy</p>
+        <h2>Minimal access, no public credentials.</h2>
+      </div>
+      <div class="copy">
+        <p>
+          API credentials and access tokens are never published on this website or stored in this public repository. Development credentials are kept in private environment configuration.
+        </p>
+        <p>
+          Market Lab is currently a personal development project. Any future Etsy account authorization will use the permissions required for the requested feature and will be handled through the official authorization flow.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <span>© 2026 Market Lab</span>
+      <span>Personal development project</span>
+    </footer>
+  </main>
+</body>
+</html>
